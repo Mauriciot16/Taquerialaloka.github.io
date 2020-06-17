@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background-image:url(fondogeneral.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;  
+}
+
+header{
+	width: 100%; 
+}
+
+.navegacion{
+	text-align: center;
+	width: 992px;
+	height: 75px;
+	margin: 10px auto;
+	background: black;
+	opacity: 0.7;
+	
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 30px 50px;
+	color: white;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: red;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background:black;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+	box-shadow: 0px 0px 25px 3px black;
+}
+
+.submenu li a{
+	display: block;
+	padding: 10px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+*{
+	margin: n:0px;
+	padding:0px;
+}
+div#general{
+	margin: auto;
+	margin-top: 50px;
+	width: 983px;
+	height: 625px;
+	background-image: url(logo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.8;
+}
+
+div#texto1{
+	justify-content: center;
+	margin-top: 20px;
+	float: left;
+	width: 327px;
+	height: 500px;
+	background-color: green;
+	box-shadow: 0px 0px 25px 3px green;
+	
+}
+
+div#texto2{
+	margin-top: 20px;
+	float: left;;
+	width: 327px;
+	height: 500px;
+	background-color: white;
+	box-shadow: 0px 0px 25px 3px white;
+}
+
+div#texto3{
+	margin-top: 20px;
+	float: right;
+	width: 327px;
+	height: 500px;
+	background-color: red;
+	box-shadow: 0px 0px 25px 3px red;
+
+}
+
+div#texto4{
+	margin: auto;
+	margin-top: px;
+	width: 983px;
+	height: 400px;
+	background-color: rgba(139, 235, 15, 0.616);
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 1;
+   
+}
+
+div#contactanos{
+	margin-top: 20px auto;
+	display: flex;
+	justify-content: center;
+	width: 1348px;
+	height: 100px;
+	background-color: yellow;
+	box-shadow: 2px 2px 50px 6px blueviolet;
+	opacity: 0.7;
+	padding: 2%;
+
+}
+.linea{
+    border-top: 5px solid red;
+    margin-bottom: 40px;
+}
